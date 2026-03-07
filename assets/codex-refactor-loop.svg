@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" font-family="Arial, sans-serif">
+  <defs>
+    <marker id="a" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+      <path d="M0 0L10 5L0 10Z" fill="#333"/>
+    </marker>
+  </defs>
+  <rect x="24" y="28" width="1152" height="704" rx="24" fill="#000" opacity=".05"/>
+  <rect x="20" y="24" width="1152" height="704" rx="24" fill="#fff" stroke="#d0d7de"/>
+  <text x="596" y="66" text-anchor="middle" font-size="28" fill="#111">Safe Refactor Loop with Codex</text>
+  <text x="596" y="92" text-anchor="middle" font-size="14" fill="#555">A small-step workflow that keeps behavior stable while the structure improves</text>
+
+  <rect x="70" y="170" width="235" height="360" rx="20" fill="#f6f8fa" stroke="#d0d7de"/>
+  <text x="188" y="206" text-anchor="middle" font-size="20" fill="#111">1. Understand</text>
+  <rect x="92" y="238" width="191" height="62" rx="14" fill="#dbeafe" stroke="#d0d7de"/>
+  <text x="188" y="275" text-anchor="middle" font-size="15" fill="#111">Summarize the file</text>
+  <rect x="92" y="316" width="191" height="62" rx="14" fill="#dcfce7" stroke="#d0d7de"/>
+  <text x="188" y="353" text-anchor="middle" font-size="15" fill="#111">List side effects</text>
+  <rect x="92" y="394" width="191" height="62" rx="14" fill="#fef9c3" stroke="#d0d7de"/>
+  <text x="188" y="431" text-anchor="middle" font-size="15" fill="#111">Find safe seams</text>
+
+  <rect x="344" y="170" width="235" height="360" rx="20" fill="#f6f8fa" stroke="#d0d7de"/>
+  <text x="462" y="206" text-anchor="middle" font-size="20" fill="#111">2. Lock behavior</text>
+  <rect x="366" y="238" width="191" height="62" rx="14" fill="#e9d5ff" stroke="#d0d7de"/>
+  <text x="462" y="275" text-anchor="middle" font-size="15" fill="#111">Generate tests</text>
+  <rect x="366" y="316" width="191" height="62" rx="14" fill="#fce7f3" stroke="#d0d7de"/>
+  <text x="462" y="353" text-anchor="middle" font-size="15" fill="#111">Verify edge cases</text>
+  <rect x="366" y="394" width="191" height="62" rx="14" fill="#ffedd5" stroke="#d0d7de"/>
+  <text x="462" y="431" text-anchor="middle" font-size="15" fill="#111">Create safety net</text>
+
+  <rect x="618" y="170" width="235" height="360" rx="20" fill="#f6f8fa" stroke="#d0d7de"/>
+  <text x="736" y="206" text-anchor="middle" font-size="20" fill="#111">3. Refactor one seam</text>
+  <rect x="640" y="238" width="191" height="62" rx="14" fill="#dbeafe" stroke="#d0d7de"/>
+  <text x="736" y="275" text-anchor="middle" font-size="15" fill="#111">CommonJS to ESM</text>
+  <rect x="640" y="316" width="191" height="62" rx="14" fill="#dcfce7" stroke="#d0d7de"/>
+  <text x="736" y="353" text-anchor="middle" font-size="15" fill="#111">Callbacks to async</text>
+  <rect x="640" y="394" width="191" height="62" rx="14" fill="#fef9c3" stroke="#d0d7de"/>
+  <text x="736" y="431" text-anchor="middle" font-size="15" fill="#111">Modernize APIs</text>
+
+  <rect x="892" y="170" width="235" height="360" rx="20" fill="#f6f8fa" stroke="#d0d7de"/>
+  <text x="1010" y="206" text-anchor="middle" font-size="20" fill="#111">4. Review and repeat</text>
+  <rect x="914" y="238" width="191" height="62" rx="14" fill="#fce7f3" stroke="#d0d7de"/>
+  <text x="1010" y="275" text-anchor="middle" font-size="15" fill="#111">Check diffs carefully</text>
+  <rect x="914" y="316" width="191" height="62" rx="14" fill="#e9d5ff" stroke="#d0d7de"/>
+  <text x="1010" y="353" text-anchor="middle" font-size="15" fill="#111">Run tests again</text>
+  <rect x="914" y="394" width="191" height="62" rx="14" fill="#ffedd5" stroke="#d0d7de"/>
+  <text x="1010" y="431" text-anchor="middle" font-size="15" fill="#111">Pick the next seam</text>
+
+  <line x1="305" y1="350" x2="344" y2="350" stroke="#333" stroke-width="2" marker-end="url(#a)"/>
+  <line x1="579" y1="350" x2="618" y2="350" stroke="#333" stroke-width="2" marker-end="url(#a)"/>
+  <line x1="853" y1="350" x2="892" y2="350" stroke="#333" stroke-width="2" marker-end="url(#a)"/>
+  <path d="M1010 530V610H188V530" fill="none" stroke="#333" stroke-width="2" stroke-dasharray="8 8" marker-end="url(#a)"/>
+
+  <rect x="884" y="112" width="230" height="44" rx="12" fill="#f8fafc" stroke="#d0d7de"/>
+  <line x1="906" y1="134" x2="956" y2="134" stroke="#333" stroke-width="2" marker-end="url(#a)"/>
+  <text x="970" y="139" font-size="13" fill="#555">Primary flow</text>
+  <line x1="906" y1="150" x2="956" y2="150" stroke="#333" stroke-width="2" stroke-dasharray="8 8" marker-end="url(#a)"/>
+  <text x="981" y="155" font-size="13" fill="#555">Feedback loop</text>
+</svg>

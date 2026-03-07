@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700" font-family="Arial, sans-serif">
+  <defs>
+    <marker id="a" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+      <path d="M0 0L10 5L0 10Z" fill="#333"/>
+    </marker>
+  </defs>
+  <rect x="24" y="28" width="1152" height="648" rx="24" fill="#000" opacity=".05"/>
+  <rect x="20" y="24" width="1152" height="648" rx="24" fill="#fff" stroke="#d0d7de"/>
+  <text x="596" y="66" text-anchor="middle" font-size="28" fill="#111">Legacy Code Bottleneck</text>
+  <text x="596" y="92" text-anchor="middle" font-size="14" fill="#555">From fear and hidden complexity to safer, reviewable modernization</text>
+
+  <rect x="64" y="140" width="300" height="450" rx="20" fill="#f6f8fa" stroke="#d0d7de"/>
+  <text x="214" y="176" text-anchor="middle" font-size="20" fill="#111">Legacy reality</text>
+  <rect x="88" y="206" width="252" height="68" rx="14" fill="#fce7f3" stroke="#d0d7de"/>
+  <text x="214" y="247" text-anchor="middle" font-size="16" fill="#111">Callback hell</text>
+  <rect x="88" y="292" width="252" height="68" rx="14" fill="#ffedd5" stroke="#d0d7de"/>
+  <text x="214" y="333" text-anchor="middle" font-size="16" fill="#111">Hidden side effects</text>
+  <rect x="88" y="378" width="252" height="68" rx="14" fill="#fef9c3" stroke="#d0d7de"/>
+  <text x="214" y="419" text-anchor="middle" font-size="16" fill="#111">No reliable docs</text>
+  <rect x="88" y="464" width="252" height="68" rx="14" fill="#e9d5ff" stroke="#d0d7de"/>
+  <text x="214" y="505" text-anchor="middle" font-size="16" fill="#111">Fear of breakage</text>
+
+  <rect x="450" y="140" width="300" height="450" rx="20" fill="#f6f8fa" stroke="#d0d7de"/>
+  <text x="600" y="176" text-anchor="middle" font-size="20" fill="#111">Codex as co-pilot</text>
+  <rect x="474" y="206" width="252" height="68" rx="14" fill="#dbeafe" stroke="#d0d7de"/>
+  <text x="600" y="247" text-anchor="middle" font-size="16" fill="#111">Map modules and flows</text>
+  <rect x="474" y="292" width="252" height="68" rx="14" fill="#dcfce7" stroke="#d0d7de"/>
+  <text x="600" y="333" text-anchor="middle" font-size="16" fill="#111">Expose dependencies</text>
+  <rect x="474" y="378" width="252" height="68" rx="14" fill="#fef9c3" stroke="#d0d7de"/>
+  <text x="600" y="419" text-anchor="middle" font-size="16" fill="#111">Generate test ideas</text>
+  <rect x="474" y="464" width="252" height="68" rx="14" fill="#fce7f3" stroke="#d0d7de"/>
+  <text x="600" y="505" text-anchor="middle" font-size="16" fill="#111">Suggest safe seams</text>
+
+  <rect x="836" y="140" width="300" height="450" rx="20" fill="#f6f8fa" stroke="#d0d7de"/>
+  <text x="986" y="176" text-anchor="middle" font-size="20" fill="#111">Modern target</text>
+  <rect x="860" y="206" width="252" height="68" rx="14" fill="#dcfce7" stroke="#d0d7de"/>
+  <text x="986" y="247" text-anchor="middle" font-size="16" fill="#111">Safer changes</text>
+  <rect x="860" y="292" width="252" height="68" rx="14" fill="#dbeafe" stroke="#d0d7de"/>
+  <text x="986" y="333" text-anchor="middle" font-size="16" fill="#111">Cleaner flow</text>
+  <rect x="860" y="378" width="252" height="68" rx="14" fill="#e9d5ff" stroke="#d0d7de"/>
+  <text x="986" y="419" text-anchor="middle" font-size="16" fill="#111">Lower maintenance risk</text>
+  <rect x="860" y="464" width="252" height="68" rx="14" fill="#ffedd5" stroke="#d0d7de"/>
+  <text x="986" y="505" text-anchor="middle" font-size="16" fill="#111">Faster future work</text>
+
+  <line x1="364" y1="365" x2="450" y2="365" stroke="#333" stroke-width="2" marker-end="url(#a)"/>
+  <line x1="750" y1="365" x2="836" y2="365" stroke="#333" stroke-width="2" marker-end="url(#a)"/>
+
+  <rect x="454" y="602" width="292" height="46" rx="12" fill="#f8fafc" stroke="#d0d7de"/>
+  <text x="600" y="630" text-anchor="middle" font-size="14" fill="#555">Understand first - then change with confidence</text>
+</svg>
