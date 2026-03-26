@@ -1,0 +1,47 @@
+<svg width="1200" height="760" viewBox="0 0 1200 760" font-family="Arial, sans-serif" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M1152 22H48C33.6406 22 22 33.6406 22 48V712C22 726.359 33.6406 738 48 738H1152C1166.36 738 1178 726.359 1178 712V48C1178 33.6406 1166.36 22 1152 22Z" fill="#E5E7EB"/>
+<path d="M1148 18H44C29.6406 18 18 29.6406 18 44V708C18 722.359 29.6406 734 44 734H1148C1162.36 734 1174 722.359 1174 708V44C1174 29.6406 1162.36 18 1148 18Z" fill="white" stroke="#D0D7DE"/>
+<text fill="#111111" style="white-space: pre" xml:space="preserve" font-family="Arial, sans-serif" font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="352.367" y="57.1818">Secure AI PR Reviewer Architecture</tspan></text>
+<text fill="#555555" style="white-space: pre" xml:space="preserve" font-family="Arial, sans-serif" font-size="14" letter-spacing="0em"><tspan x="412.968" y="83.5909">From Pull Request event to automated review comment</tspan></text>
+<path d="M300 124H100C88.9543 124 80 134.967 80 148.494V317.506C80 331.033 88.9543 342 100 342H300C311.046 342 320 331.033 320 317.506V148.494C320 134.967 311.046 124 300 124Z" fill="#F6F8FA" stroke="#D0D7DE"/>
+<text fill="#111111" style="white-space: pre" xml:space="preserve" font-family="Arial, sans-serif" font-size="20" font-weight="bold" letter-spacing="0em"><tspan x="165.283" y="153.273">GitHub</tspan></text>
+<path d="M284 176H116C109.373 176 104 181.373 104 188V206C104 212.627 109.373 218 116 218H284C290.627 218 296 212.627 296 206V188C296 181.373 290.627 176 284 176Z" fill="#DBEAFE" stroke="#D0D7DE"/>
+<text fill="#111111" style="white-space: pre" xml:space="preserve" font-family="Arial, sans-serif" font-size="15" letter-spacing="0em"><tspan x="127.227" y="201.455">Pull Request opened</tspan></text>
+<path d="M284 230H116C109.373 230 104 235.373 104 242V260C104 266.627 109.373 272 116 272H284C290.627 272 296 266.627 296 260V242C296 235.373 290.627 230 284 230Z" fill="#DCFCE7" stroke="#D0D7DE"/>
+<text fill="#111111" style="white-space: pre" xml:space="preserve" font-family="Arial, sans-serif" font-size="15" letter-spacing="0em"><tspan x="120.657" y="255.455">GitHub Actions trigger</tspan></text>
+<path d="M284 284H116C109.373 284 104 289.373 104 296V314C104 320.627 109.373 326 116 326H284C290.627 326 296 320.627 296 314V296C296 289.373 290.627 284 284 284Z" fill="#FEF9C3" stroke="#D0D7DE"/>
+<text fill="#111111" style="white-space: pre" xml:space="preserve" font-family="Arial, sans-serif" font-size="15" letter-spacing="0em"><tspan x="154.612" y="309.455">Fetch PR diff</tspan></text>
+<path d="M790 124H410C398.954 124 390 133.149 390 144.435V573.565C390 584.851 398.954 594 410 594H790C801.046 594 810 584.851 810 573.565V144.435C810 133.149 801.046 124 790 124Z" fill="#F6F8FA" stroke="#D0D7DE"/>
+<text fill="#111111" style="white-space: pre" xml:space="preserve" font-family="Arial, sans-serif" font-size="20" font-weight="bold" letter-spacing="0em"><tspan x="554.736" y="153.273">Reviewer</tspan></text>
+<path d="M762 182H438C431.373 182 426 187.373 426 194V216C426 222.627 431.373 228 438 228H762C768.627 228 774 222.627 774 216V194C774 187.373 768.627 182 762 182Z" fill="#FCE7F3" stroke="#D0D7DE"/>
+<text fill="#111111" style="white-space: pre" xml:space="preserve" font-family="Arial, sans-serif" font-size="15" letter-spacing="0em"><tspan x="546.899" y="209.455">Redact secrets</tspan></text>
+<path d="M762 242H438C431.373 242 426 247.373 426 254V276C426 282.627 431.373 288 438 288H762C768.627 288 774 282.627 774 276V254C774 247.373 768.627 242 762 242Z" fill="#FFEDD5" stroke="#D0D7DE"/>
+<text fill="#111111" style="white-space: pre" xml:space="preserve" font-family="Arial, sans-serif" font-size="15" letter-spacing="0em"><tspan x="534.287" y="269.455">Trim oversized diff</tspan></text>
+<path d="M762 302H438C431.373 302 426 307.373 426 314V336C426 342.627 431.373 348 438 348H762C768.627 348 774 342.627 774 336V314C774 307.373 768.627 302 762 302Z" fill="#E9D5FF" stroke="#D0D7DE"/>
+<text fill="#111111" style="white-space: pre" xml:space="preserve" font-family="Arial, sans-serif" font-size="15" letter-spacing="0em"><tspan x="531.636" y="329.455">Send diff to Claude</tspan></text>
+<path d="M762 382H438C431.373 382 426 387.373 426 394V416C426 422.627 431.373 428 438 428H762C768.627 428 774 422.627 774 416V394C774 387.373 768.627 382 762 382Z" fill="#DBEAFE" stroke="#D0D7DE"/>
+<text fill="#111111" style="white-space: pre" xml:space="preserve" font-family="Arial, sans-serif" font-size="15" letter-spacing="0em"><tspan x="524.399" y="409.455">Receive JSON review</tspan></text>
+<path d="M762 442H438C431.373 442 426 447.373 426 454V476C426 482.627 431.373 488 438 488H762C768.627 488 774 482.627 774 476V454C774 447.373 768.627 442 762 442Z" fill="#DCFCE7" stroke="#D0D7DE"/>
+<text fill="#111111" style="white-space: pre" xml:space="preserve" font-family="Arial, sans-serif" font-size="15" letter-spacing="0em"><tspan x="538.44" y="469.455">Validate with Zod</tspan></text>
+<path d="M762 502H438C431.373 502 426 507.373 426 514V554C426 560.627 431.373 566 438 566H762C768.627 566 774 560.627 774 554V514C774 507.373 768.627 502 762 502Z" fill="#FEF9C3" stroke="#D0D7DE"/>
+<text fill="#111111" style="white-space: pre" xml:space="preserve" font-family="Arial, sans-serif" font-size="15" letter-spacing="0em"><tspan x="502.317" y="529.455">Create Markdown summary</tspan></text>
+<text fill="#555555" style="white-space: pre" xml:space="preserve" font-family="Arial, sans-serif" font-size="13" letter-spacing="0em"><tspan x="489.665" y="549.727">Fail-closed result on validation error</tspan></text>
+<path d="M1100 124H900C888.954 124 880 132.954 880 144V282C880 293.046 888.954 302 900 302H1100C1111.05 302 1120 293.046 1120 282V144C1120 132.954 1111.05 124 1100 124Z" fill="#F6F8FA" stroke="#D0D7DE"/>
+<text fill="#111111" style="white-space: pre" xml:space="preserve" font-family="Arial, sans-serif" font-size="20" font-weight="bold" letter-spacing="0em"><tspan x="965.4" y="153.273">Claude</tspan></text>
+<path d="M1084 190H916C909.373 190 904 195.373 904 202V224C904 230.627 909.373 236 916 236H1084C1090.63 236 1096 230.627 1096 224V202C1096 195.373 1090.63 190 1084 190Z" fill="#E9D5FF" stroke="#D0D7DE"/>
+<text fill="#111111" style="white-space: pre" xml:space="preserve" font-family="Arial, sans-serif" font-size="15" letter-spacing="0em"><tspan x="958.127" y="217.455">Analyse diff</tspan></text>
+<path d="M1084 248H916C909.373 248 904 253.373 904 260V282C904 288.627 909.373 294 916 294H1084C1090.63 294 1096 288.627 1096 282V260C1096 253.373 1090.63 248 1084 248Z" fill="#FCE7F3" stroke="#D0D7DE"/>
+<text fill="#111111" style="white-space: pre" xml:space="preserve" font-family="Arial, sans-serif" font-size="15" letter-spacing="0em"><tspan x="954.297" y="275.455">Return JSON</tspan></text>
+<path d="M1100 406H900C888.954 406 880 415.457 880 427.124V572.876C880 584.543 888.954 594 900 594H1100C1111.05 594 1120 584.543 1120 572.876V427.124C1120 415.457 1111.05 406 1100 406Z" fill="#F6F8FA" stroke="#D0D7DE"/>
+<text fill="#111111" style="white-space: pre" xml:space="preserve" font-family="Arial, sans-serif" font-size="20" font-weight="bold" letter-spacing="0em"><tspan x="939.062" y="435.273">Pull Request</tspan></text>
+<path d="M1084 472H916C909.373 472 904 477.373 904 484V506C904 512.627 909.373 518 916 518H1084C1090.63 518 1096 512.627 1096 506V484C1096 477.373 1090.63 472 1084 472Z" fill="#DCFCE7" stroke="#D0D7DE"/>
+<text fill="#111111" style="white-space: pre" xml:space="preserve" font-family="Arial, sans-serif" font-size="15" letter-spacing="0em"><tspan x="939.714" y="499.455">Post AI comment</tspan></text>
+<path d="M1084 530H916C909.373 530 904 535.373 904 542V564C904 570.627 909.373 576 916 576H1084C1090.63 576 1096 570.627 1096 564V542C1096 535.373 1090.63 530 1084 530Z" fill="#DBEAFE" stroke="#D0D7DE"/>
+<text fill="#111111" style="white-space: pre" xml:space="preserve" font-family="Arial, sans-serif" font-size="15" letter-spacing="0em"><tspan x="920.32" y="557.455">Human decides merge</tspan></text>
+<path d="M320 250H319V252H320V251V250ZM390 251L380 245.226V256.774L390 251ZM320 251V252H381V251V250H320V251Z" fill="#333333"/>
+<path d="M774 325L861 325" stroke="#333333" stroke-width="2"/>
+<path d="M861 326L861 277" stroke="#333333" stroke-width="2"/>
+<path d="M879 277L869 271.226V282.774L879 277ZM860 277V278H870V277V276H860V277Z" fill="#333333"/>
+<path d="M1000 354V355H1001V354H1000ZM600 354V353H599V354H600ZM600 382L605.774 372H594.226L600 382ZM1000 302H999V354H1000H1001V302H1000ZM1000 354V353H600V354V355H1000V354ZM600 354H599V373H600H601V354H600Z" fill="#333333"/>
+<path d="M774 514H880" stroke="#333333" stroke-width="2"/>
+</svg>
