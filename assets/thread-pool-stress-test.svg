@@ -1,0 +1,38 @@
+<svg width="1000" height="620" viewBox="0 0 1000 620" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M956 14H32C22.0589 14 14 22.0589 14 32V576C14 585.941 22.0589 594 32 594H956C965.941 594 974 585.941 974 576V32C974 22.0589 965.941 14 956 14Z" fill="white" stroke="#D0D7DE"/>
+<text fill="#111111" style="white-space: pre" xml:space="preserve" font-family="Arial" font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="334.641" y="55.707">Thread Pool Stress Test</tspan></text>
+<text fill="#555555" style="white-space: pre" xml:space="preserve" font-family="Arial" font-size="15" letter-spacing="0em"><tspan x="286.659" y="84.7002">Concurrent async work waits when default worker slots are full</tspan></text>
+<path d="M264 155H86C77.1634 155 70 162.163 70 171V469C70 477.837 77.1634 485 86 485H264C272.837 485 280 477.837 280 469V171C280 162.163 272.837 155 264 155Z" fill="#F6F8FA" stroke="#D0D7DE"/>
+<text fill="#111111" style="white-space: pre" xml:space="preserve" font-family="Arial" font-size="18" font-weight="bold" letter-spacing="0em"><tspan x="121.932" y="188.74">20 Requests</tspan></text>
+<path d="M238 230H113C107.477 230 103 234.477 103 240V264C103 269.523 107.477 274 113 274H238C243.523 274 248 269.523 248 264V240C248 234.477 243.523 230 238 230Z" fill="#DBEAFE" stroke="#D0D7DE"/>
+<text fill="#111111" style="white-space: pre" xml:space="preserve" font-family="Arial" font-size="14" letter-spacing="0em"><tspan x="138.38" y="256.854">autocannon</tspan></text>
+<path d="M238 295H113C107.477 295 103 299.477 103 305V329C103 334.523 107.477 339 113 339H238C243.523 339 248 334.523 248 329V305C248 299.477 243.523 295 238 295Z" fill="#DBEAFE" stroke="#D0D7DE"/>
+<text fill="#111111" style="white-space: pre" xml:space="preserve" font-family="Arial" font-size="14" letter-spacing="0em"><tspan x="159.428" y="321.854">-c 20</tspan></text>
+<path d="M238 360H113C107.477 360 103 364.477 103 370V394C103 399.523 107.477 404 113 404H238C243.523 404 248 399.523 248 394V370C248 364.477 243.523 360 238 360Z" fill="#DBEAFE" stroke="#D0D7DE"/>
+<text fill="#111111" style="white-space: pre" xml:space="preserve" font-family="Arial" font-size="14" letter-spacing="0em"><tspan x="157.862" y="386.854">/hash</tspan></text>
+<path d="M634 130H406C397.163 130 390 137.163 390 146V494C390 502.837 397.163 510 406 510H634C642.837 510 650 502.837 650 494V146C650 137.163 642.837 130 634 130Z" fill="#F6F8FA" stroke="#D0D7DE"/>
+<text fill="#111111" style="white-space: pre" xml:space="preserve" font-family="Arial" font-size="18" font-weight="bold" letter-spacing="0em"><tspan x="467.459" y="163.74">Default Pool</tspan></text>
+<text fill="#555555" style="white-space: pre" xml:space="preserve" font-family="Arial" font-size="14" letter-spacing="0em"><tspan x="444.866" y="188.854">Small shared worker set</tspan></text>
+<path d="M500 230H440C434.477 230 430 234.477 430 240V276C430 281.523 434.477 286 440 286H500C505.523 286 510 281.523 510 276V240C510 234.477 505.523 230 500 230Z" fill="#DCFCE7" stroke="#D0D7DE"/>
+<text fill="#111111" style="white-space: pre" xml:space="preserve" font-family="Arial" font-size="13" letter-spacing="0em"><tspan x="455.546" y="262.007">Busy</tspan></text>
+<path d="M600 230H540C534.477 230 530 234.477 530 240V276C530 281.523 534.477 286 540 286H600C605.523 286 610 281.523 610 276V240C610 234.477 605.523 230 600 230Z" fill="#DCFCE7" stroke="#D0D7DE"/>
+<text fill="#111111" style="white-space: pre" xml:space="preserve" font-family="Arial" font-size="13" letter-spacing="0em"><tspan x="555.546" y="262.007">Busy</tspan></text>
+<path d="M500 310H440C434.477 310 430 314.477 430 320V356C430 361.523 434.477 366 440 366H500C505.523 366 510 361.523 510 356V320C510 314.477 505.523 310 500 310Z" fill="#DCFCE7" stroke="#D0D7DE"/>
+<text fill="#111111" style="white-space: pre" xml:space="preserve" font-family="Arial" font-size="13" letter-spacing="0em"><tspan x="455.546" y="342.007">Busy</tspan></text>
+<path d="M600 310H540C534.477 310 530 314.477 530 320V356C530 361.523 534.477 366 540 366H600C605.523 366 610 361.523 610 356V320C610 314.477 605.523 310 600 310Z" fill="#DCFCE7" stroke="#D0D7DE"/>
+<text fill="#111111" style="white-space: pre" xml:space="preserve" font-family="Arial" font-size="13" letter-spacing="0em"><tspan x="555.546" y="342.007">Busy</tspan></text>
+<path d="M600 410H440C434.477 410 430 414.477 430 420V448C430 453.523 434.477 458 440 458H600C605.523 458 610 453.523 610 448V420C610 414.477 605.523 410 600 410Z" fill="#FFEDD5" stroke="#D0D7DE"/>
+<text fill="#111111" style="white-space: pre" xml:space="preserve" font-family="Arial" font-size="14" letter-spacing="0em"><tspan x="468.983" y="438.854">16 requests wait</tspan></text>
+<path d="M894 185H766C757.163 185 750 192.163 750 201V439C750 447.837 757.163 455 766 455H894C902.837 455 910 447.837 910 439V201C910 192.163 902.837 185 894 185Z" fill="#F6F8FA" stroke="#D0D7DE"/>
+<text fill="#111111" style="white-space: pre" xml:space="preserve" font-family="Arial" font-size="18" font-weight="bold" letter-spacing="0em"><tspan x="802.473" y="218.74">Result</tspan></text>
+<path d="M870 265H790C784.477 265 780 269.477 780 275V299C780 304.523 784.477 309 790 309H870C875.523 309 880 304.523 880 299V275C880 269.477 875.523 265 870 265Z" fill="#FCE7F3" stroke="#D0D7DE"/>
+<text fill="#111111" style="white-space: pre" xml:space="preserve" font-family="Arial" font-size="14" letter-spacing="0em"><tspan x="805.466" y="291.854">Latency</tspan></text>
+<path d="M870 330H790C784.477 330 780 334.477 780 340V364C780 369.523 784.477 374 790 374H870C875.523 374 880 369.523 880 364V340C880 334.477 875.523 330 870 330Z" fill="#FCE7F3" stroke="#D0D7DE"/>
+<text fill="#111111" style="white-space: pre" xml:space="preserve" font-family="Arial" font-size="14" letter-spacing="0em"><tspan x="799.614" y="356.854">Queueing</tspan></text>
+<path d="M390 320L380 314.226V325.774L390 320ZM280 320V321H381V320V319H280V320Z" fill="#333333"/>
+<path d="M750 320L740 314.226V325.774L750 320ZM650 320V321H741V320V319H650V320Z" fill="#333333"/>
+<text fill="#555555" style="white-space: pre" xml:space="preserve" font-family="Arial" font-size="13" letter-spacing="0em"><tspan x="317.698" y="299.007">load</tspan></text>
+<text fill="#555555" style="white-space: pre" xml:space="preserve" font-family="Arial" font-size="13" letter-spacing="0em"><tspan x="661.008" y="299.007">waiting cost</tspan></text>
+<path d="M742 535H258C251.373 535 246 540.373 246 547V561C246 567.627 251.373 573 258 573H742C748.627 573 754 567.627 754 561V547C754 540.373 748.627 535 742 535Z" fill="#FEF9C3" stroke="#D0D7DE"/>
+<text fill="#111111" style="white-space: pre" xml:space="preserve" font-family="Arial" font-size="14" letter-spacing="0em"><tspan x="293.944" y="558.854">The first bottleneck is often the hidden queue, not your route code.</tspan></text>
+</svg>

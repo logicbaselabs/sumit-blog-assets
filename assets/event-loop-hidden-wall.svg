@@ -1,0 +1,37 @@
+<svg width="1000" height="620" viewBox="0 0 1000 620" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M956 14H32C22.0589 14 14 22.0589 14 32V576C14 585.941 22.0589 594 32 594H956C965.941 594 974 585.941 974 576V32C974 22.0589 965.941 14 956 14Z" fill="white" stroke="#D0D7DE"/>
+<text fill="#111111" style="white-space: pre" xml:space="preserve" font-family="Arial" font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="305.355" y="55.707">The Hidden Event Loop Wall</tspan></text>
+<text fill="#555555" style="white-space: pre" xml:space="preserve" font-family="Arial" font-size="15" letter-spacing="0em"><tspan x="318.365" y="84.7002">Async code still waits when shared resources are full</tspan></text>
+<path d="M238 170H80C71.1634 170 64 177.163 64 186V414C64 422.837 71.1634 430 80 430H238C246.837 430 254 422.837 254 414V186C254 177.163 246.837 170 238 170Z" fill="#F6F8FA" stroke="#D0D7DE"/>
+<text fill="#111111" style="white-space: pre" xml:space="preserve" font-family="Arial" font-size="18" font-weight="bold" letter-spacing="0em"><tspan x="129.468" y="203.74">Clients</tspan></text>
+<path d="M214 235H104C98.4772 235 94 239.477 94 245V267C94 272.523 98.4772 277 104 277H214C219.523 277 224 272.523 224 267V245C224 239.477 219.523 235 214 235Z" fill="#DBEAFE" stroke="#D0D7DE"/>
+<text fill="#111111" style="white-space: pre" xml:space="preserve" font-family="Arial" font-size="14" letter-spacing="0em"><tspan x="127.062" y="260.854">Request 1</tspan></text>
+<path d="M214 292H104C98.4772 292 94 296.477 94 302V324C94 329.523 98.4772 334 104 334H214C219.523 334 224 329.523 224 324V302C224 296.477 219.523 292 214 292Z" fill="#DBEAFE" stroke="#D0D7DE"/>
+<text fill="#111111" style="white-space: pre" xml:space="preserve" font-family="Arial" font-size="14" letter-spacing="0em"><tspan x="127.062" y="317.854">Request 2</tspan></text>
+<path d="M214 349H104C98.4772 349 94 353.477 94 359V381C94 386.523 98.4772 391 104 391H214C219.523 391 224 386.523 224 381V359C224 353.477 219.523 349 214 349Z" fill="#DBEAFE" stroke="#D0D7DE"/>
+<text fill="#111111" style="white-space: pre" xml:space="preserve" font-family="Arial" font-size="14" letter-spacing="0em"><tspan x="126.4" y="374.854">Request N</tspan></text>
+<path d="M534 170H346C337.163 170 330 177.163 330 186V414C330 422.837 337.163 430 346 430H534C542.837 430 550 422.837 550 414V186C550 177.163 542.837 170 534 170Z" fill="#F6F8FA" stroke="#D0D7DE"/>
+<text fill="#111111" style="white-space: pre" xml:space="preserve" font-family="Arial" font-size="18" font-weight="bold" letter-spacing="0em"><tspan x="368.447" y="203.74">Main Event Loop</tspan></text>
+<path d="M505 245H375C369.477 245 365 249.477 365 255V285C365 290.523 369.477 295 375 295H505C510.523 295 515 290.523 515 285V255C515 249.477 510.523 245 505 245Z" fill="#DCFCE7" stroke="#D0D7DE"/>
+<text fill="#111111" style="white-space: pre" xml:space="preserve" font-family="Arial" font-size="14" letter-spacing="0em"><tspan x="396.483" y="274.854">Route handler</tspan></text>
+<path d="M505 320H375C369.477 320 365 324.477 365 330V360C365 365.523 369.477 370 375 370H505C510.523 370 515 365.523 515 360V330C515 324.477 510.523 320 505 320Z" fill="#DCFCE7" stroke="#D0D7DE"/>
+<text fill="#111111" style="white-space: pre" xml:space="preserve" font-family="Arial" font-size="14" letter-spacing="0em"><tspan x="392.218" y="349.854">Response write</tspan></text>
+<path d="M894 140H646C637.163 140 630 147.163 630 156V444C630 452.837 637.163 460 646 460H894C902.837 460 910 452.837 910 444V156C910 147.163 902.837 140 894 140Z" fill="#F6F8FA" stroke="#D0D7DE"/>
+<text fill="#111111" style="white-space: pre" xml:space="preserve" font-family="Arial" font-size="18" font-weight="bold" letter-spacing="0em"><tspan x="694.079" y="173.74">libuv Worker Pool</tspan></text>
+<path d="M749 215H675C669.477 215 665 219.477 665 225V255C665 260.523 669.477 265 675 265H749C754.523 265 759 260.523 759 255V225C759 219.477 754.523 215 749 215Z" fill="#FEF9C3" stroke="#D0D7DE"/>
+<text fill="#111111" style="white-space: pre" xml:space="preserve" font-family="Arial" font-size="13" letter-spacing="0em"><tspan x="686.233" y="245.007">Worker 1</tspan></text>
+<path d="M864 215H790C784.477 215 780 219.477 780 225V255C780 260.523 784.477 265 790 265H864C869.523 265 874 260.523 874 255V225C874 219.477 869.523 215 864 215Z" fill="#FEF9C3" stroke="#D0D7DE"/>
+<text fill="#111111" style="white-space: pre" xml:space="preserve" font-family="Arial" font-size="13" letter-spacing="0em"><tspan x="801.233" y="245.007">Worker 2</tspan></text>
+<path d="M749 285H675C669.477 285 665 289.477 665 295V325C665 330.523 669.477 335 675 335H749C754.523 335 759 330.523 759 325V295C759 289.477 754.523 285 749 285Z" fill="#FEF9C3" stroke="#D0D7DE"/>
+<text fill="#111111" style="white-space: pre" xml:space="preserve" font-family="Arial" font-size="13" letter-spacing="0em"><tspan x="686.233" y="315.007">Worker 3</tspan></text>
+<path d="M864 285H790C784.477 285 780 289.477 780 295V325C780 330.523 784.477 335 790 335H864C869.523 335 874 330.523 874 325V295C874 289.477 869.523 285 864 285Z" fill="#FEF9C3" stroke="#D0D7DE"/>
+<text fill="#111111" style="white-space: pre" xml:space="preserve" font-family="Arial" font-size="13" letter-spacing="0em"><tspan x="801.233" y="315.007">Worker 4</tspan></text>
+<path d="M865 375H675C669.477 375 665 379.477 665 385V411C665 416.523 669.477 421 675 421H865C870.523 421 875 416.523 875 411V385C875 379.477 870.523 375 865 375Z" fill="#FFEDD5" stroke="#D0D7DE"/>
+<text fill="#111111" style="white-space: pre" xml:space="preserve" font-family="Arial" font-size="14" letter-spacing="0em"><tspan x="705.333" y="402.854">Waiting queue grows</tspan></text>
+<path d="M254 300H330" stroke="#333333" stroke-width="2"/>
+<path d="M550 300H630" stroke="#333333" stroke-width="2"/>
+<text fill="#555555" style="white-space: pre" xml:space="preserve" font-family="Arial" font-size="13" letter-spacing="0em"><tspan x="271.207" y="282.007">traffic</tspan></text>
+<text fill="#555555" style="white-space: pre" xml:space="preserve" font-family="Arial" font-size="13" letter-spacing="0em"><tspan x="554.344" y="274.007">native async&#10;</tspan><tspan x="576.77" y="289.007">work</tspan></text>
+<path d="M726.557 500H274.443C267.571 500 262 505.373 262 512V532C262 538.627 267.571 544 274.443 544H726.557C733.429 544 739 538.627 739 532V512C739 505.373 733.429 500 726.557 500Z" fill="#FCE7F3" stroke="#D0D7DE"/>
+<text fill="#111111" style="white-space: pre" xml:space="preserve" font-family="Arial" font-size="15" letter-spacing="0em"><tspan x="269.348" y="526.7">The JavaScript looks non-blocking, but the shared pool still has limits.</tspan></text>
+</svg>

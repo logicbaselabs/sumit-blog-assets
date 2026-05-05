@@ -1,0 +1,30 @@
+<svg width="1000" height="620" viewBox="0 0 1000 620" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M956 14H32C22.0589 14 14 22.0589 14 32V576C14 585.941 22.0589 594 32 594H956C965.941 594 974 585.941 974 576V32C974 22.0589 965.941 14 956 14Z" fill="white" stroke="#D0D7DE"/>
+<text fill="#111111" style="white-space: pre" xml:space="preserve" font-family="Arial" font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="304.781" y="55.707">Microtask Priority in Node.js</tspan></text>
+<text fill="#555555" style="white-space: pre" xml:space="preserve" font-family="Arial" font-size="15" letter-spacing="0em"><tspan x="373.033" y="84.7002">High-priority queues must stay small</tspan></text>
+<path d="M234 180H96C87.1634 180 80 187.163 80 196V274C80 282.837 87.1634 290 96 290H234C242.837 290 250 282.837 250 274V196C250 187.163 242.837 180 234 180Z" fill="#F6F8FA" stroke="#D0D7DE"/>
+<text fill="#111111" style="white-space: pre" xml:space="preserve" font-family="Arial" font-size="17" font-weight="bold" letter-spacing="0em"><tspan x="109.219" y="213.894">Current Stack</tspan></text>
+<path d="M209 238H121C116.029 238 112 242.029 112 247V263C112 267.971 116.029 272 121 272H209C213.971 272 218 267.971 218 263V247C218 242.029 213.971 238 209 238Z" fill="#DBEAFE" stroke="#D0D7DE"/>
+<text fill="#111111" style="white-space: pre" xml:space="preserve" font-family="Arial" font-size="13" letter-spacing="0em"><tspan x="131.726" y="259.007">Route code</tspan></text>
+<path d="M469 180H331C322.163 180 315 187.163 315 196V274C315 282.837 322.163 290 331 290H469C477.837 290 485 282.837 485 274V196C485 187.163 477.837 180 469 180Z" fill="#F6F8FA" stroke="#D0D7DE"/>
+<text fill="#111111" style="white-space: pre" xml:space="preserve" font-family="Arial" font-size="17" font-weight="bold" letter-spacing="0em"><tspan x="365.635" y="213.894">nextTick</tspan></text>
+<path d="M444 238H356C351.029 238 347 242.029 347 247V263C347 267.971 351.029 272 356 272H444C448.971 272 453 267.971 453 263V247C453 242.029 448.971 238 444 238Z" fill="#FEF9C3" stroke="#D0D7DE"/>
+<text fill="#111111" style="white-space: pre" xml:space="preserve" font-family="Arial" font-size="13" letter-spacing="0em"><tspan x="377.942" y="259.007">Highest</tspan></text>
+<path d="M704 180H566C557.163 180 550 187.163 550 196V274C550 282.837 557.163 290 566 290H704C712.837 290 720 282.837 720 274V196C720 187.163 712.837 180 704 180Z" fill="#F6F8FA" stroke="#D0D7DE"/>
+<text fill="#111111" style="white-space: pre" xml:space="preserve" font-family="Arial" font-size="17" font-weight="bold" letter-spacing="0em"><tspan x="596.7" y="213.894">Promises</tspan></text>
+<path d="M679 238H591C586.029 238 582 242.029 582 247V263C582 267.971 586.029 272 591 272H679C683.971 272 688 267.971 688 263V247C688 242.029 683.971 238 679 238Z" fill="#DCFCE7" stroke="#D0D7DE"/>
+<text fill="#111111" style="white-space: pre" xml:space="preserve" font-family="Arial" font-size="13" letter-spacing="0em"><tspan x="603.928" y="259.007">Microtasks</tspan></text>
+<path d="M939 180H801C792.163 180 785 187.163 785 196V274C785 282.837 792.163 290 801 290H939C947.837 290 955 282.837 955 274V196C955 187.163 947.837 180 939 180Z" fill="#F6F8FA" stroke="#D0D7DE"/>
+<text fill="#111111" style="white-space: pre" xml:space="preserve" font-family="Arial" font-size="17" font-weight="bold" letter-spacing="0em"><tspan x="817.058" y="213.894">Loop Phases</tspan></text>
+<path d="M914 238H826C821.029 238 817 242.029 817 247V263C817 267.971 821.029 272 826 272H914C918.971 272 923 267.971 923 263V247C923 242.029 918.971 238 914 238Z" fill="#E9D5FF" stroke="#D0D7DE"/>
+<text fill="#111111" style="white-space: pre" xml:space="preserve" font-family="Arial" font-size="13" letter-spacing="0em"><tspan x="827.223" y="259.007">Timers and I/O</tspan></text>
+<path d="M315 235L305 229.226V240.774L315 235ZM250 235V236H306V235V234H250V235Z" fill="#333333"/>
+<path d="M485 234H484V236H485V235V234ZM550 235L540 229.226V240.774L550 235ZM485 235V236H541V235V234H485V235Z" fill="#333333"/>
+<path d="M785 235L775 229.226V240.774L785 235ZM720 235V236H776V235V234H720V235Z" fill="#333333"/>
+<path d="M724 385H276C267.163 385 260 392.163 260 401V443C260 451.837 267.163 459 276 459H724C732.837 459 740 451.837 740 443V401C740 392.163 732.837 385 724 385Z" fill="#FFEDD5" stroke="#D0D7DE"/>
+<text fill="#111111" style="white-space: pre" xml:space="preserve" font-family="Arial" font-size="17" font-weight="bold" letter-spacing="0em"><tspan x="438.068" y="414.894">Starvation Risk</tspan></text>
+<text fill="#555555" style="white-space: pre" xml:space="preserve" font-family="Arial" font-size="14" letter-spacing="0em"><tspan x="290.759" y="442.854">A long nextTick chain delays timers, I/O, and new request progress.</tspan></text>
+<path d="M400 375H399V376H400V375ZM500 375L490 369.226V380.774L500 375ZM400 290H399V293.036H400H401V290H400ZM400 299.107H399V305.179H400H401V299.107H400ZM400 311.25H399V317.321H400H401V311.25H400ZM400 323.393H399V329.464H400H401V323.393H400ZM400 335.536H399V341.607H400H401V335.536H400ZM400 347.679H399V353.75H400H401V347.679H400ZM400 359.821H399V365.893H400H401V359.821H400ZM400 371.964H399V375H400H401V371.964H400ZM400 375V376H403.125V375V374H400V375ZM409.375 375V376H415.625V375V374H409.375V375ZM421.875 375V376H428.125V375V374H421.875V375ZM434.375 375V376H440.625V375V374H434.375V375ZM446.875 375V376H453.125V375V374H446.875V375ZM459.375 375V376H465.625V375V374H459.375V375ZM471.875 375V376H478.125V375V374H471.875V375ZM484.375 375V376H490.625V375V374H484.375V375Z" fill="#333333"/>
+<path d="M684 516H316C309.373 516 304 521.373 304 528V544C304 550.627 309.373 556 316 556H684C690.627 556 696 550.627 696 544V528C696 521.373 690.627 516 684 516Z" fill="#FCE7F3" stroke="#D0D7DE"/>
+<text fill="#111111" style="white-space: pre" xml:space="preserve" font-family="Arial" font-size="14" letter-spacing="0em"><tspan x="337.223" y="540.854">Use setImmediate for large chunks that should yield.</tspan></text>
+</svg>

@@ -1,0 +1,45 @@
+<svg width="1100" height="720" viewBox="0 0 1100 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M1056 14H32C22.0589 14 14 22.0589 14 32V676C14 685.941 22.0589 694 32 694H1056C1065.94 694 1074 685.941 1074 676V32C1074 22.0589 1065.94 14 1056 14Z" fill="white" stroke="#D0D7DE"/>
+<text fill="#111111" style="white-space: pre" xml:space="preserve" font-family="Arial" font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="301.871" y="55.707">High-Concurrency Node.js Blueprint</tspan></text>
+<text fill="#555555" style="white-space: pre" xml:space="preserve" font-family="Arial" font-size="15" letter-spacing="0em"><tspan x="374.569" y="84.7002">Route each type of work to the right execution path</tspan></text>
+<path d="M214 165H76C67.1634 165 60 172.163 60 181V259C60 267.837 67.1634 275 76 275H214C222.837 275 230 267.837 230 259V181C230 172.163 222.837 165 214 165Z" fill="#F6F8FA" stroke="#D0D7DE"/>
+<text fill="#111111" style="white-space: pre" xml:space="preserve" font-family="Arial" font-size="17" font-weight="bold" letter-spacing="0em"><tspan x="116.636" y="201.894">Clients</tspan></text>
+<path d="M189 226H101C96.0294 226 92 230.029 92 235V251C92 255.971 96.0294 260 101 260H189C193.971 260 198 255.971 198 251V235C198 230.029 193.971 226 189 226Z" fill="#DBEAFE" stroke="#D0D7DE"/>
+<text fill="#111111" style="white-space: pre" xml:space="preserve" font-family="Arial" font-size="13" letter-spacing="0em"><tspan x="127.284" y="247.007">Traffic</tspan></text>
+<path d="M519 150H331C322.163 150 315 157.163 315 166V274C315 282.837 322.163 290 331 290H519C527.837 290 535 282.837 535 274V166C535 157.163 527.837 150 519 150Z" fill="#F6F8FA" stroke="#D0D7DE"/>
+<text fill="#111111" style="white-space: pre" xml:space="preserve" font-family="Arial" font-size="17" font-weight="bold" letter-spacing="0em"><tspan x="361.632" y="186.894">Node.js Service</tspan></text>
+<path d="M490 225H360C354.477 225 350 229.477 350 235V257C350 262.523 354.477 267 360 267H490C495.523 267 500 262.523 500 257V235C500 229.477 495.523 225 490 225Z" fill="#DCFCE7" stroke="#D0D7DE"/>
+<text fill="#111111" style="white-space: pre" xml:space="preserve" font-family="Arial" font-size="13" letter-spacing="0em"><tspan x="379.068" y="251.007">Main event loop</tspan></text>
+<path d="M829 110H681C672.163 110 665 117.163 665 126V204C665 212.837 672.163 220 681 220H829C837.837 220 845 212.837 845 204V126C845 117.163 837.837 110 829 110Z" fill="#F6F8FA" stroke="#D0D7DE"/>
+<text fill="#111111" style="white-space: pre" xml:space="preserve" font-family="Arial" font-size="17" font-weight="bold" letter-spacing="0em"><tspan x="714.351" y="146.894">libuv Pool</tspan></text>
+<path d="M806 171H704C699.029 171 695 175.029 695 180V196C695 200.971 699.029 205 704 205H806C810.971 205 815 200.971 815 196V180C815 175.029 810.971 171 806 171Z" fill="#FEF9C3" stroke="#D0D7DE"/>
+<text fill="#111111" style="white-space: pre" xml:space="preserve" font-family="Arial" font-size="13" letter-spacing="0em"><tspan x="717.765" y="192.007">Native async</tspan></text>
+<path d="M829 265H681C672.163 265 665 272.163 665 281V359C665 367.837 672.163 375 681 375H829C837.837 375 845 367.837 845 359V281C845 272.163 837.837 265 829 265Z" fill="#F6F8FA" stroke="#D0D7DE"/>
+<text fill="#111111" style="white-space: pre" xml:space="preserve" font-family="Arial" font-size="17" font-weight="bold" letter-spacing="0em"><tspan x="690.378" y="301.894">Worker Threads</tspan></text>
+<path d="M806 326H704C699.029 326 695 330.029 695 335V351C695 355.971 699.029 360 704 360H806C810.971 360 815 355.971 815 351V335C815 330.029 810.971 326 806 326Z" fill="#E9D5FF" stroke="#D0D7DE"/>
+<text fill="#111111" style="white-space: pre" xml:space="preserve" font-family="Arial" font-size="13" letter-spacing="0em"><tspan x="724.284" y="347.007">CPU tasks</tspan></text>
+<path d="M829 420H681C672.163 420 665 427.163 665 436V514C665 522.837 672.163 530 681 530H829C837.837 530 845 522.837 845 514V436C845 427.163 837.837 420 829 420Z" fill="#F6F8FA" stroke="#D0D7DE"/>
+<text fill="#111111" style="white-space: pre" xml:space="preserve" font-family="Arial" font-size="17" font-weight="bold" letter-spacing="0em"><tspan x="711.039" y="456.894">Job Queue</tspan></text>
+<path d="M806 481H704C699.029 481 695 485.029 695 490V506C695 510.971 699.029 515 704 515H806C810.971 515 815 510.971 815 506V490C815 485.029 810.971 481 806 481Z" fill="#FFEDD5" stroke="#D0D7DE"/>
+<text fill="#111111" style="white-space: pre" xml:space="preserve" font-family="Arial" font-size="13" letter-spacing="0em"><tspan x="720.291" y="502.007">Background</tspan></text>
+<path d="M1034 185H916C907.163 185 900 192.163 900 201V279C900 287.837 907.163 295 916 295H1034C1042.84 295 1050 287.837 1050 279V201C1050 192.163 1042.84 185 1034 185Z" fill="#F6F8FA" stroke="#D0D7DE"/>
+<text fill="#111111" style="white-space: pre" xml:space="preserve" font-family="Arial" font-size="17" font-weight="bold" letter-spacing="0em"><tspan x="937.173" y="221.894">Database</tspan></text>
+<path d="M1016 246H934C929.029 246 925 250.029 925 255V271C925 275.971 929.029 280 934 280H1016C1020.97 280 1025 275.971 1025 271V255C1025 250.029 1020.97 246 1016 246Z" fill="#FCE7F3" stroke="#D0D7DE"/>
+<text fill="#111111" style="white-space: pre" xml:space="preserve" font-family="Arial" font-size="13" letter-spacing="0em"><tspan x="948.606" y="267.007">Pool limit</tspan></text>
+<path d="M524 500H326C317.163 500 310 507.163 310 516V594C310 602.837 317.163 610 326 610H524C532.837 610 540 602.837 540 594V516C540 507.163 532.837 500 524 500Z" fill="#F6F8FA" stroke="#D0D7DE"/>
+<text fill="#111111" style="white-space: pre" xml:space="preserve" font-family="Arial" font-size="17" font-weight="bold" letter-spacing="0em"><tspan x="371.095" y="536.894">Observability</tspan></text>
+<path d="M496 561H354C349.029 561 345 565.029 345 570V586C345 590.971 349.029 595 354 595H496C500.971 595 505 590.971 505 586V570C505 565.029 500.971 561 496 561Z" fill="#DBEAFE" stroke="#D0D7DE"/>
+<text fill="#111111" style="white-space: pre" xml:space="preserve" font-family="Arial" font-size="13" letter-spacing="0em"><tspan x="364.958" y="582.007">Lag, queues, latency</tspan></text>
+<path d="M315 220L305 214.226V225.774L315 220ZM230 220V221H306V220V219H230V220Z" fill="#333333"/>
+<path d="M655 220V221H656V220H655ZM655 165L649.226 175H660.774L655 165ZM535 220V221H655V220V219H535V220ZM655 220H656V174H655H654V220H655Z" fill="#333333"/>
+<path d="M632.5 245H633.5V244H632.5V245ZM632.5 326H631.5V327H632.5V326ZM665 326L655 320.227V331.774L665 326ZM535 245V246H632.5V245V244H535V245ZM632.5 245H631.5V326H632.5H633.5V245H632.5ZM632.5 326V327H656V326V325H632.5V326Z" fill="#333333"/>
+<path d="M610.833 260H611.833V259H610.833V260ZM610.833 493H609.833V494H610.833V493ZM665 493L655 487.227V498.773L665 493ZM535 260V261H610.833V260V259H535V260ZM610.833 260H609.833V493H610.833H611.833V260H610.833ZM610.833 493V494H656V493V492H610.833V493Z" fill="#333333"/>
+<path d="M900 235L890 229.226V240.774L900 235ZM535 235V236H891V235V234H535V235Z" fill="#333333"/>
+<path d="M425 500L430.774 490H419.226L425 500ZM425 290H424V293.088H425H426V290H425ZM425 299.265H424V305.441H425H426V299.265H425ZM425 311.618H424V317.794H425H426V311.618H425ZM425 323.971H424V330.147H425H426V323.971H425ZM425 336.324H424V342.5H425H426V336.324H425ZM425 348.676H424V354.853H425H426V348.676H425ZM425 361.029H424V367.206H425H426V361.029H425ZM425 373.382H424V379.559H425H426V373.382H425ZM425 385.735H424V391.912H425H426V385.735H425ZM425 398.088H424V404.265H425H426V398.088H425ZM425 410.441H424V416.618H425H426V410.441H425ZM425 422.794H424V428.971H425H426V422.794H425ZM425 435.147H424V441.324H425H426V435.147H425ZM425 447.5H424V453.676H425H426V447.5H425ZM425 459.853H424V466.029H425H426V459.853H425ZM425 472.206H424V478.382H425H426V472.206H425ZM425 484.559H424V490.735H425H426V484.559H425Z" fill="#333333"/>
+<path d="M755 530V590H545" stroke="#333333" stroke-width="2" stroke-dasharray="6 6"/>
+<path d="M228 555H82C75.3726 555 70 560.373 70 567V601C70 607.627 75.3726 613 82 613H228C234.627 613 240 607.627 240 601V567C240 560.373 234.627 555 228 555Z" fill="white" stroke="#D0D7DE"/>
+<path d="M90 575H130" stroke="#333333" stroke-width="2"/>
+<text fill="#555555" style="white-space: pre" xml:space="preserve" font-family="Arial" font-size="13" letter-spacing="0em"><tspan x="145" y="579.007">work path</tspan></text>
+<path d="M90 598H130" stroke="#333333" stroke-width="2" stroke-dasharray="6 6"/>
+<text fill="#555555" style="white-space: pre" xml:space="preserve" font-family="Arial" font-size="13" letter-spacing="0em"><tspan x="145" y="602.007">metrics</tspan></text>
+</svg>
